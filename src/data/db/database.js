@@ -18,9 +18,9 @@ const database = {
       dribbble: '',
       github: 'https://github.com/attack-theoRy'
     },
-    brandImage: 'images/profilepic.PNG',
-    aboutImage: 'images/profilepic.PNG',
-    aboutImageLg: 'images/profilepic.PNG',
+    brandImage: 'images/profilepic.png',
+    aboutImage: 'images/profilepic.png',
+    aboutImageLg: 'images/profilepic.png',
     cvfile: 'https://www.visualcv.com/piroozw/pdf/'
   },
   services: [
@@ -124,8 +124,8 @@ const database = {
       id: 4,
       title: "Budget Tracker",
       subtitle: "Keep track of your budget offline (mobile install)",
-      imageUrl: "images/Sample2Standalone.png",
-      largeImageUrl: ["images/Sample2Standalone.png"],
+      imageUrl: "images/Sample2Standalone.PNG",
+      largeImageUrl: ["images/Sample2Standalone.PNG"],
       url: 'https://secret-chamber-01910.herokuapp.com/'
     },
     {
