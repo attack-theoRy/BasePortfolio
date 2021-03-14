@@ -65,8 +65,9 @@ function About() {
             <div className="col-lg-6">
               <div className="mi-about-image">
                 <ProgressiveImage
-                  src={information.aboutImage}
-                  placeholder="/images/about-image-placeholder.png"
+                /*information.aboutImage*/
+                  src={'images/profile.png' }
+                  placeholder="images/profilepic.png"
                 >
                   {src => <img src={src} alt="aboutimage" onClick={() => handleToggler(!toggler)} />}
                 </ProgressiveImage>
@@ -84,10 +85,7 @@ function About() {
                 <h3>
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
-                <p>
-                  I am a frontend web developer. I can provide clean code and
-                  pixel perfect design. I also make website more & more
-                  interactive with web animations.
+                <p> I am full-stack web developer and I enjoy creating intuitive applications
                 </p>
                 <ul>
                   {!information.name ? null : (
@@ -139,6 +137,7 @@ function About() {
           </div>
         </div>
       </div>
+      {/* 
       <div className="mi-service-area mi-section mi-padding-top">
         <div className="container">
           <Sectiontitle title="Services" />
@@ -169,7 +168,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+                </div> */}
     </Layout>
   );
 }

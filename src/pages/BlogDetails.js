@@ -1,4 +1,4 @@
-import axios from "axios";
+/*import axios from "axios";
 import Disqus from "disqus-react";
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown/with-html";
@@ -41,4 +41,4 @@ function BlogDetails(props) {
   );
 }
 
-export default BlogDetails;
+export default BlogDetails; */

@@ -2,28 +2,26 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Devid Chester',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
-    age: 24,
-    phone: '',
-    nationality: 'American',
-    language: 'English, French',
-    email: '',
-    address: '121 King Street, Melbourne, Australia',
+    name: 'Pirooz Wallace',
+    aboutContent: "I am a full-stack web developer. I love the creative side of code.",
+    phone: '(510) 684-8821',
+    language: 'English',
+    email: 'PiroozWallace@outlook.com',
+    address: 'Lake Merrit, Oakland',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+   //   facebook: 'https://facebook.com',
+   //   twitter: 'https://twitter.com',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/piroozwallace',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/attack-theoRy'
     },
-    brandImage: '/images/brand-image.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    brandImage: 'images/profilepic.PNG',
+    aboutImage: 'images/profilepic.PNG',
+    aboutImageLg: 'images/profilepic.PNG',
+    cvfile: 'https://www.visualcv.com/piroozw/pdf/'
   },
   services: [
     {
@@ -97,52 +95,57 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "Project Wknd",
+      subtitle: "Find something to do on the weekend",
+      imageUrl: "images/unsplash.jpg",
+      largeImageUrl: ["images/unsplash.jpg"],
+      url: 'https://attack-theory.github.io/ProjectWknd/homePage.html'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      title: "Project WORM",
+      subtitle: "Find books and create your own bookshelf",
+      imageUrl: "images/SampleBookShelf.png",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "images/SampleBookShelf.png",
+        "images/SampleBookShelf.png"
       ],
-      url: 'https://facebook.com'
+      url: 'https://gentle-sands-52914.herokuapp.com/'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      title: "Weather Dashboard",
+      subtitle: "Search weather / forecast for your city",
+      imageUrl: "images/WeatherSample.png",
+      largeImageUrl : ["images/WeatherSample.png"],
+      url: 'https://attack-theory.github.io/06WeatherDashPW/'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+      title: "Budget Tracker",
+      subtitle: "Keep track of your budget offline (mobile install)",
+      imageUrl: "images/Sample2Standalone.png",
+      largeImageUrl: ["images/Sample2Standalone.png"],
+      url: 'https://secret-chamber-01910.herokuapp.com/'
     },
     {
       id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "Day Planner",
+      subtitle: "Plan your day! Save events for later.",
+      imageUrl: "images/plannerScreen.png",
+      largeImageUrl: ["images/plannerScreen.png"],
+      url: "https://attack-theory.github.io/05Planner/Develop"
     },
     {
       id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      title: "Password Generator",
+      subtitle: "Generate a random password based on your criteria",
+      imageUrl: "images/passwordGenScreen.png",
+      largeImageUrl: ["images/passwordGenScreen.png"],
+      url: "https://attack-theory.github.io/03Password_Gen/index.html"
     },
+
+    /*
     {
       id: 7,
       title: "Beautiful Pendrive",
@@ -276,53 +279,55 @@ const database = {
       imageUrl: "/images/portfolio-image-5.jpg",
       largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
     }
+
+    */
   ],
   experience: {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019 - Present",
+        position: "Wordpress Web Developer",
+        company: "Numbulary",
+        details: "Website in-progess. Daily entries about interesting numbers everyone should know about",
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2020 - Present",
+        position: "Property Manager / Social Worker",
+        company: "Options Recovery Services",
+        details: "Housing advocate for low-income and those in need. Help clients sign up for section-8 housing and transitional / homeless into permanent housing. Also provide tutoring for those that need help with technology."
       },
       {
         id: 3,
-        year: "2014 - 1016",
+        year: "2016-2017",
         position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
+        company: "Herbal Relief Alternative",
+        details: "Created e-commerce site for medical marijuana dispensary."
+      },
+      {
+        id: 4,
+        year: "2013",
+        position: "IT Consultant",
+        company: "Bay Computing Group",
+        details: "Managed IT Service provider for 50+ Bay Area Companies."
+      },
+
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2020 - 2021",
+        graduation: "Coding Bootcamp",
+        university: "UC Davis",
+        details: "Updating my coding skills. Learning HTML, Javascript, CSS, Node.js, React, MySQL."
       },
       {
         id: 2,
-        year: "2016 - 2018",
         graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        university: "Full Sail University",
+        details: "Accelerated Bachelor's Degree Program. Worked mainly with C++, MFC and C. Final project was a full 3-D video game. My role was gameplay programmer"
       },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
     ]
   },
   blogs: [
@@ -463,9 +468,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['(510) 684 8821', '(341) 333 9113'],
+    emailAddress: ['PiroozWallace@outlook.com', 'PiroozWallace@gmail.com'],
+    address: "Lake Merrit, Oakland"
   }
 }
 
@@ -475,10 +480,12 @@ Mock.onGet("/api/information").reply(config => {
   return [200, response];
 });
 
+/*
 Mock.onGet("/api/services").reply(config => {
   const response = database.services;
   return [200, response];
 });
+
 
 Mock.onGet("/api/reviews").reply(config => {
   const response = database.reviews;
@@ -489,11 +496,14 @@ Mock.onGet("/api/skills").reply(config => {
   const response = database.skills;
   return [200, response];
 });
+*/
 
 Mock.onGet("/api/portfolios").reply(config => {
   const response = database.portfolios;
   return [200, response];
 });
+
+
 
 Mock.onGet("/api/experience").reply(config => {
   const response = database.experience;
