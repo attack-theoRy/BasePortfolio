@@ -5,7 +5,7 @@
 
 * [Pirooz Wallace](https://github.com/attack-theoRy)
 
-[Deployed GitHub Pages App](https://attack-theory.github.io/BasePortfolio/)
+[Deployed Heroku App](https://shielded-journey-81395.herokuapp.com/)
 
 
 
@@ -46,10 +46,11 @@ run `npm start ` and open a browser to http://localhost:3000
 ## Tech
 
 * React
-* CSS
+* SCSS
 * NodeJS
-* Axios
+* Axios | Mock adapter
 * Bootstrap
+* Heroku
 
 ## Questions
 
