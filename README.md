@@ -1,7 +1,7 @@
 # React Portfolio
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](#license) 
-![issues](https://img.shields.io/github/issues/alexbachicha/WORM)
+
 
 * [Pirooz Wallace](https://github.com/attack-theoRy)
 
