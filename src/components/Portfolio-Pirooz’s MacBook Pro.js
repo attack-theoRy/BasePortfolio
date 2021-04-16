@@ -28,19 +28,14 @@ function Portfolio(props) {
             </button>
           </li>}
           {url ? <li>
-            <a rel="noopener noreferrer" target="_blank" href={url}>
-              <Icon.Link />
-            </a>
-          </li> : null}
-          {repo ? <li>
-            <a rel="noopener noreferrer" target="_blank" href={repo}>
+            <a rel="noopener noreferrer" target="Deployed App" href={url}>
               <Icon.Link />
             </a>
           </li> : null}
         </ul>
       </div>
       {!url ? <h5>{title}</h5> : <h5>
-        <a rel="noopener noreferrer" target="_blank" href={url}>
+        <a rel="noopener noreferrer" target="_blank" href={repo}>
           {title}
         </a>
       </h5>}
