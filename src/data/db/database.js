@@ -99,7 +99,8 @@ const database = {
       subtitle: "Find something to do on the weekend",
       imageUrl: "images/unsplash.jpg",
       largeImageUrl: ["images/unsplash.jpg"],
-      url: 'https://attack-theory.github.io/ProjectWknd/homePage.html'
+      url: 'https://attack-theory.github.io/ProjectWknd/homePage.html',
+      repo: 'https://github.com/attack-theoRy/ProjectWknd'
     },
     {
       id: 2,
@@ -110,39 +111,56 @@ const database = {
         "images/SampleBookShelf.png",
         "images/SampleBookShelf.png"
       ],
-      url: 'https://gentle-sands-52914.herokuapp.com/'
+      url: 'https://gentle-sands-52914.herokuapp.com/',
+      repo: 'https://github.com/attack-theoRy/WORM'
     },
     {
       id: 3,
+      title: "Escape Room",
+      subtitle: "Escape room game - final project ",
+      description : " Tech Used - Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript "
+      Role : 'Developed the login system, email verification and all the back-end code and app logic'
+      largeImageUrl: [
+        "images/escapeSample2.png",
+      ],
+      url: 'https://shielded-journey-81395.herokuapp.com/',
+      repo: 'https://github.com/attack-theoRy/escape-room'
+    },
+    {
+      id: 4,
       title: "Weather Dashboard",
       subtitle: "Search weather / forecast for your city",
       imageUrl: "images/WeatherSample.png",
       largeImageUrl : ["images/WeatherSample.png"],
-      url: 'https://attack-theory.github.io/06WeatherDashPW/'
+      url: 'https://attack-theory.github.io/06WeatherDashPW/',
+      repo: 'https://github.com/attack-theoRy/06WeatherDashPW'
     },
     {
-      id: 4,
+      id: 5,
       title: "Budget Tracker",
       subtitle: "Keep track of your budget offline (mobile install)",
       imageUrl: "images/Sample2Standalone.PNG",
       largeImageUrl: ["images/Sample2Standalone.PNG"],
-      url: 'https://secret-chamber-01910.herokuapp.com/'
+      url: 'https://secret-chamber-01910.herokuapp.com/',
+      repo: 'https://github.com/attack-theoRy/budget-pwa-offline-tracker'
     },
     {
-      id: 5,
+      id: 6,
       title: "Day Planner",
       subtitle: "Plan your day! Save events for later.",
       imageUrl: "images/plannerScreen.png",
       largeImageUrl: ["images/plannerScreen.png"],
-      url: "https://attack-theory.github.io/05Planner/Develop"
+      url: "https://attack-theory.github.io/05Planner/Develop",
+      repo: 'https://github.com/attack-theoRy/05Planner'
     },
     {
-      id: 6,
+      id: 7,
       title: "Password Generator",
       subtitle: "Generate a random password based on your criteria",
       imageUrl: "images/passwordGenScreen.png",
       largeImageUrl: ["images/passwordGenScreen.png"],
-      url: "https://attack-theory.github.io/03Password_Gen/index.html"
+      url: "https://attack-theory.github.io/03Password_Gen/index.html",
+      repo: "https://github.com/attack-theoRy/03Password_Gen"
     },
 
     /*

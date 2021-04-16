@@ -5,7 +5,7 @@ import ProgressiveImage from 'react-progressive-image';
 
 function Portfolio(props) {
   const [toggler, setToggler] = useState(false);
-  const { title, subtitle, imageUrl, largeImageUrl, url } = props.content;
+  const { title, subtitle, imageUrl, largeImageUrl, url, repo } = props.content;
 
   const handleToggler = (value) => {
     setToggler(value);
@@ -28,18 +28,19 @@ function Portfolio(props) {
             </button>
           </li>}
           {url ? <li>
-            <a rel="noopener noreferrer" target="_blank" href={url}>
+            <a rel="noopener noreferrer" target="Deployed App" href={url}>
               <Icon.Link />
             </a>
           </li> : null}
         </ul>
       </div>
       {!url ? <h5>{title}</h5> : <h5>
-        <a rel="noopener noreferrer" target="_blank" href={url}>
+        <a rel="noopener noreferrer" target="_blank" href={repo}>
           {title}
         </a>
       </h5>}
       {subtitle ? <h6>{subtitle}</h6> : null}
+      
       {!largeImageUrl ? null : <FsLightbox
         toggler={toggler}
         sources={largeImageUrl}
