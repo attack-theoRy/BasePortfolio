@@ -117,13 +117,23 @@ const database = {
     {
       id: 3,
       title: "Escape Room",
+<<<<<<< HEAD
       subtitle: "Escape room game - final project",
+=======
+      subtitle: "Escape room game - final project ",
+      description : " Tech Used - Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript "
+      Role : 'Developed the login system, email verification and all the back-end code and app logic'
+>>>>>>> 00bf4b9aae76a5589495c74771ea7937fdfb7604
       largeImageUrl: [
         "images/escapeSample2.png",
       ],
       url: 'https://shielded-journey-81395.herokuapp.com/',
       repo: 'https://github.com/attack-theoRy/escape-room'
+<<<<<<< HEAD
     }
+=======
+    },
+>>>>>>> 00bf4b9aae76a5589495c74771ea7937fdfb7604
     {
       id: 4,
       title: "Weather Dashboard",
@@ -143,7 +153,7 @@ const database = {
       repo: 'https://github.com/attack-theoRy/budget-pwa-offline-tracker'
     },
     {
-      id: 5,
+      id: 6,
       title: "Day Planner",
       subtitle: "Plan your day! Save events for later.",
       imageUrl: "images/plannerScreen.png",
@@ -152,7 +162,7 @@ const database = {
       repo: 'https://github.com/attack-theoRy/05Planner'
     },
     {
-      id: 6,
+      id: 7,
       title: "Password Generator",
       subtitle: "Generate a random password based on your criteria",
       imageUrl: "images/passwordGenScreen.png",
