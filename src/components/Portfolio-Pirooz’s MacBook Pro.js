@@ -32,11 +32,6 @@ function Portfolio(props) {
               <Icon.Link />
             </a>
           </li> : null}
-          {repo ? <li>
-            <a rel="noopener noreferrer" target="_blank" href={repo}>
-              <Icon.Link />
-            </a>
-          </li> : null}
         </ul>
       </div>
       {!url ? <h5>{title}</h5> : <h5>
