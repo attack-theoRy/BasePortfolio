@@ -119,12 +119,9 @@ const database = {
     {
       id: 3,
       title: "Escape Room",
-
       subtitle: "Escape room game - final project",
-      subtitle: "Escape room game - final project ",
-      description : " Tech Used - Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript ",
+      description : "Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript ",
       role : 'Design and implementation of puzzle games',
-      Role : 'Developed the login system, email verification and all the back-end code and app logic',
       largeImageUrl: [
         "images/escapeSample2.png",
       ],
@@ -135,7 +132,7 @@ const database = {
       id: 4,
       title: "Weather Dashboard",
       subtitle: "Search weather / forecast for your city",
-      description: "Tech Used : Moment.js | Bootstrap | HTML | CSS | Javascript ",
+      description: "Moment.js | Bootstrap | HTML | CSS | Javascript ",
       role: " Created a weather forecast app",
       imageUrl: "images/WeatherSample.png",
       largeImageUrl : ["images/WeatherSample.png"],
@@ -146,7 +143,7 @@ const database = {
       id: 5,
       title: "Budget Tracker",
       subtitle: "Keep track of your budget offline (mobile install)",
-      description: "Tech Used: Progressive Web App | Node.js | Express | Mongoose",
+      description: "Progressive Web App | Node.js | Express | Mongoose",
       role: "Created an app that that keeps track of your budget",
       imageUrl: "images/Sample2Standalone.PNG",
       largeImageUrl: ["images/Sample2Standalone.PNG"],
