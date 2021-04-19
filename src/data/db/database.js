@@ -107,7 +107,7 @@ const database = {
       title: "Project WORM",
       subtitle: "Find books and create your own bookshelf",
       description: " Google Books API | Express | Node | Handlebars | Sequelize | HTML | Passport | Javascript ",
-      role: "Developed all the back-end code, search function, handlebars integration and app logic"
+      role: "Developed all the back-end code, search function, handlebars integration and app logic",
       imageUrl: "images/SampleBookShelf.png",
       largeImageUrl: [
         "images/SampleBookShelf.png",
@@ -122,9 +122,9 @@ const database = {
 
       subtitle: "Escape room game - final project",
       subtitle: "Escape room game - final project ",
-      description : " Tech Used - Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript "
-      role : 'Design and implementation of puzzle games'
-      Role : 'Developed the login system, email verification and all the back-end code and app logic'
+      description : " Tech Used - Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript ",
+      role : 'Design and implementation of puzzle games',
+      Role : 'Developed the login system, email verification and all the back-end code and app logic',
       largeImageUrl: [
         "images/escapeSample2.png",
       ],
@@ -135,8 +135,8 @@ const database = {
       id: 4,
       title: "Weather Dashboard",
       subtitle: "Search weather / forecast for your city",
-      description: "Tech Used : Moment.js | Bootstrap | HTML | CSS | Javascript "
-      role: " Created a weather forecast app"
+      description: "Tech Used : Moment.js | Bootstrap | HTML | CSS | Javascript ",
+      role: " Created a weather forecast app",
       imageUrl: "images/WeatherSample.png",
       largeImageUrl : ["images/WeatherSample.png"],
       url: 'https://attack-theory.github.io/06WeatherDashPW/',
@@ -146,8 +146,8 @@ const database = {
       id: 5,
       title: "Budget Tracker",
       subtitle: "Keep track of your budget offline (mobile install)",
-      description: "Tech Used: Progressive Web App | Node.js | Express | Mongoose"
-      role: "Created an app that t"
+      description: "Tech Used: Progressive Web App | Node.js | Express | Mongoose",
+      role: "Created an app that that keeps track of your budget",
       imageUrl: "images/Sample2Standalone.PNG",
       largeImageUrl: ["images/Sample2Standalone.PNG"],
       url: 'https://secret-chamber-01910.herokuapp.com/',
