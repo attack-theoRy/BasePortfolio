@@ -17,7 +17,7 @@ function Portfolio(props) {
         {/* <img src={imageUrl} alt={title} /> */}
         <ProgressiveImage
           src={imageUrl}
-          placeholder="/images/unsplash.png"
+          placeholder=""
         >
           {src => <img src={src} alt={title} />}
         </ProgressiveImage>
@@ -35,12 +35,12 @@ function Portfolio(props) {
         </ul>
       </div>
       {!url ? <h5>{title}</h5> : <h5>
-        <a rel="noopener noreferrer" target="_blank" href={repo}>
+        <a rel="noopener noreferrer" target="_blank" href={url}>
           {title}
         </a>
       </h5>}
       {subtitle ? <h6>{subtitle}</h6> : null}
-      {<a href={repo}></a>}
+      <a href={repo}>Github Repo</a>
       {<p>Tech Used: {description}</p>}
       {<p>Role: {role}</p>}
 

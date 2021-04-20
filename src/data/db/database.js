@@ -97,8 +97,10 @@ const database = {
       id: 1,
       title: "Project Wknd",
       subtitle: "Find something to do on the weekend",
-      imageUrl: "images/unsplash.jpg",
-      largeImageUrl: ["images/unsplash.jpg"],
+      description: "Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript",
+      role: "Developed the login system, email verification and all the back-end code and app logic",
+      imageUrl: "images/SearchResults2.png",  
+      largeImageUrl: ["images/SearchResults2.png"],
       url: 'https://attack-theory.github.io/ProjectWknd/homePage.html',
       repo: 'https://github.com/attack-theoRy/ProjectWknd'
     },
@@ -122,10 +124,11 @@ const database = {
       subtitle: "Escape room game - final project",
       description : "Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript ",
       role : 'Design and implementation of puzzle games',
+      imageUrl: "images/escapeSample2.jpg",
       largeImageUrl: [
-        "images/escapeSample2.png",
+        "images/escapeSample2.jpg",
       ],
-      url: 'https://shielded-journey-81395.herokuapp.com/',
+      url: 'https://pirooz-escape-final.herokuapp.com/',
       repo: 'https://github.com/attack-theoRy/escape-room'
     },
     {
@@ -154,21 +157,23 @@ const database = {
       id: 6,
       title: "Day Planner",
       subtitle: "Plan your day! Save events for later.",
+      description: "Node.js | Express.js | Heroku | JQuery | Javascript",
       imageUrl: "images/plannerScreen.png",
       largeImageUrl: ["images/plannerScreen.png"],
       url: "https://attack-theory.github.io/05Planner/Develop",
       repo: 'https://github.com/attack-theoRy/05Planner'
     },
-    {
+   /* {
       id: 7,
       title: "Password Generator",
       subtitle: "Generate a random password based on your criteria",
+      description: 
       imageUrl: "images/passwordGenScreen.png",
       largeImageUrl: ["images/passwordGenScreen.png"],
       url: "https://attack-theory.github.io/03Password_Gen/index.html",
       repo: "https://github.com/attack-theoRy/03Password_Gen"
     },
-
+*/
     /*
     {
       id: 7,
