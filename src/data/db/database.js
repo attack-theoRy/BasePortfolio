@@ -21,7 +21,7 @@ const database = {
     brandImage: 'images/profilepic.png',
     aboutImage: 'images/profilepic.png',
     aboutImageLg: 'images/profilepic.png',
-    cvfile: 'https://www.visualcv.com/piroozw/pdf/'
+    cvfile: 'https://docs.google.com/document/d/1JF1WNiehG2BWl5ekqHaNb0YoT6V50ugT7EqrOSQscGA/edit?usp=sharing'
   },
   services: [
     {
@@ -69,27 +69,36 @@ const database = {
   skills: [
     {
       title: "HTML5",
-      value: 95
+     // value: 95
     },
     {
       title: "CSS3",
-      value: 90
+     // value: 90
     },
     {
       title: "Javascript",
-      value: 70
+      //value: 70
     },
     {
       title: "jQuery",
-      value: 85
+      //value: 85
     },
     {
       title: "ReactJS",
-      value: 80
+      //value: 80
     },
     {
       title: "Photoshop",
       value: 65
+    },
+    {
+      title: "C++"
+    },
+    {
+      title: "Express"
+    },
+    {
+      title: "MySQL"
     }
   ],
   portfolios: [
@@ -99,8 +108,9 @@ const database = {
       subtitle: "Find something to do on the weekend",
       description: "Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript",
       role: "Developed the login system, email verification and all the back-end code and app logic",
-      imageUrl: "images/SearchResults2.png",  
-      largeImageUrl: ["images/SearchResults2.png"],
+      imageUrl: "images/wkndSample.png",  
+      largeImageUrl: ["images/wkndSample.png",
+    "images/wkndSample.png"],
       url: 'https://attack-theory.github.io/ProjectWknd/homePage.html',
       repo: 'https://github.com/attack-theoRy/ProjectWknd'
     },
@@ -124,9 +134,9 @@ const database = {
       subtitle: "Escape room game - final project",
       description : "Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript ",
       role : 'Design and implementation of puzzle games',
-      imageUrl: "images/escapeSample2.jpg",
+      imageUrl: "images/escapeSample2.png",
       largeImageUrl: [
-        "images/escapeSample2.jpg",
+        "images/escapeSample2.png",
       ],
       url: 'https://pirooz-escape-final.herokuapp.com/',
       repo: 'https://github.com/attack-theoRy/escape-room'
@@ -520,12 +530,12 @@ Mock.onGet("/api/reviews").reply(config => {
   const response = database.reviews;
   return [200, response];
 });
-
+*/
 Mock.onGet("/api/skills").reply(config => {
   const response = database.skills;
   return [200, response];
 });
-*/
+
 
 Mock.onGet("/api/portfolios").reply(config => {
   const response = database.portfolios;

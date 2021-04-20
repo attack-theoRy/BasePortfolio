@@ -85,7 +85,7 @@ function About() {
                 <h3>
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
-                <p> I am full-stack web developer and I enjoy creating intuitive applications
+                <p>Full-stack web developer with a bachelor’s degree in computer science, a professional background in IT services and I’m looking to build unique and innovative applications. In college I created a full 3d video game in a team of five as the gameplay programmer. More recently I obtained a Certificate from U.C. Davis Coding Bootcamp with ‘A+’ academic average where I became proficient in Javascript, Node, MySQL, React, HTML/CSS and Express to name a few. Our final project, which was an escape room mobile game, was lauded as the most innovative in the class. As a creative and analytical mind my goal is to join an industry where I can create something unique and useful to the world. I also enjoy helping others and as such I am currently doing part-time work for a rehabilitation center providing care to those with mental health issues and substance abuse problems.
                 </p>
                 <ul>
                   {!information.name ? null : (
