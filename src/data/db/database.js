@@ -104,6 +104,19 @@ const database = {
   portfolios: [
     {
       id: 1,
+      title: "Escape Room",
+      subtitle: "Escape room game - final project",
+      description : "Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript ",
+      role : 'Design and implementation of puzzle games',
+      imageUrl: "images/escapeSample2.png",
+      largeImageUrl: [
+        "images/escapeSample2.png",
+      ],
+      url: 'https://pirooz-escape-final.herokuapp.com/',
+      repo: 'https://github.com/attack-theoRy/escape-room'
+    },
+    {
+      id: 2,
       title: "Project Wknd",
       subtitle: "Find something to do on the weekend",
       description: "Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript",
@@ -115,7 +128,7 @@ const database = {
       repo: 'https://github.com/attack-theoRy/ProjectWknd'
     },
     {
-      id: 2,
+      id: 3,
       title: "Project WORM",
       subtitle: "Find books and create your own bookshelf",
       description: " Google Books API | Express | Node | Handlebars | Sequelize | HTML | Passport | Javascript ",
@@ -126,20 +139,7 @@ const database = {
         "images/SampleBookShelf.png"
       ],
       url: 'https://gentle-sands-52914.herokuapp.com/',
-      repo: 'https://github.com/attack-theoRy/WORM'
-    },
-    {
-      id: 3,
-      title: "Escape Room",
-      subtitle: "Escape room game - final project",
-      description : "Ticketmaster API | Mailboxlayer API | JQuery | UI Kit | HTML | CSS | Javascript ",
-      role : 'Design and implementation of puzzle games',
-      imageUrl: "images/escapeSample2.png",
-      largeImageUrl: [
-        "images/escapeSample2.png",
-      ],
-      url: 'https://pirooz-escape-final.herokuapp.com/',
-      repo: 'https://github.com/attack-theoRy/escape-room'
+      repo: 'https://github.com/attack-theoRy/WORM',
     },
     {
       id: 4,
@@ -167,7 +167,8 @@ const database = {
       id: 6,
       title: "Day Planner",
       subtitle: "Plan your day! Save events for later.",
-      description: "Node.js | Express.js | Heroku | JQuery | Javascript",
+      description: "Moment.js | CSS | JQuery"
+      role: "Created a custom day planner with save-able events ",
       imageUrl: "images/plannerScreen.png",
       largeImageUrl: ["images/plannerScreen.png"],
       url: "https://attack-theory.github.io/05Planner/Develop",
