@@ -167,7 +167,7 @@ const database = {
       id: 6,
       title: "Day Planner",
       subtitle: "Plan your day! Save events for later.",
-      description: "Moment.js | CSS | JQuery"
+      description: "Moment.js | CSS | JQuery",
       role: "Created a custom day planner with save-able events ",
       imageUrl: "images/plannerScreen.png",
       largeImageUrl: ["images/plannerScreen.png"],
