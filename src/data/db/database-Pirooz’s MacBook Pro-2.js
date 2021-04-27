@@ -21,7 +21,7 @@ const database = {
     brandImage: 'images/profilepic.png',
     aboutImage: 'images/profilepic.png',
     aboutImageLg: 'images/profilepic.png',
-    cvfile: 'https://www.visualcv.com/piroozw/pdf/'
+    cvfile: 'https://docs.google.com/document/d/1JF1WNiehG2BWl5ekqHaNb0YoT6V50ugT7EqrOSQscGA/edit?usp=sharing'
   },
   services: [
     {

@@ -18,9 +18,9 @@ const database = {
       dribbble: '',
       github: 'https://github.com/attack-theoRy'
     },
-    brandImage: 'images/profilepic.png',
-    aboutImage: 'images/profilepic.png',
-    aboutImageLg: 'images/profilepic.png',
+    brandImage: 'images/profilepic.jpeg',
+    aboutImage: 'images/profilepic.jpeg',
+    aboutImageLg: 'images/profilepic.jpeg',
     cvfile: 'https://docs.google.com/document/d/1JF1WNiehG2BWl5ekqHaNb0YoT6V50ugT7EqrOSQscGA/edit?usp=sharing'
   },
   services: [
@@ -89,7 +89,6 @@ const database = {
     },
     {
       title: "Photoshop",
-      value: 65
     },
     {
       title: "C++"
@@ -326,7 +325,7 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2019 - Present",
+        year: "2020 - Present",
         position: "Wordpress Web Developer",
         company: "Numbulary",
         details: "Website in-progess. Daily entries about interesting numbers everyone should know about",
